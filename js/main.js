@@ -8,15 +8,15 @@ jQuery(document).ready(function($) {
 			var passwrd = 'Rootz46k7du.2';//document.getElementById('passid').value;
 
 			if (usrname == null || usrname == '' || passwrd == null || passwrd == '') {
-				alert('Please enter Username AND Password');
+				console.log('Please enter Username AND Password');
 				return;
 			}
 
 			var result = sforce.connection.login(usrname, passwrd);
 
-			alert("Logged in with session id " + result.sessionId);
+			console.log("Logged in with session id " + result.sessionId);
 		} catch (error) {
-			alert(error);
+			console.log(error);
 		}
 
 	}
