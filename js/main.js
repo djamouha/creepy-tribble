@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 
 		try {
 			var usrname = 'djamouha@gmail.com';//document.getElementById('userid').value;
-			var passwrd = 'Rootz46k7du.2';//document.getElementById('passid').value;
+			var passwrd = 'Rootz46k7du.21jYZG1mzElTfcstcTyZrgoJt';//document.getElementById('passid').value;
 
 			if (usrname == null || usrname == '' || passwrd == null || passwrd == '') {
 				console.log('Please enter Username AND Password');
