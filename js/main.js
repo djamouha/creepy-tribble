@@ -20,4 +20,6 @@ jQuery(document).ready(function($) {
 		}
 
 	}
+	
+	console.log('fin chargement page');
 });
