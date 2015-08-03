@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
     //do jQuery stuff when DOM is ready
 	console.log('La page est chargée');
-	function logincall() {
-
+	//function logincall() {
+		console.log('logincall');
 		try {
+			console.log('try');
 			var usrname = 'djamouha@gmail.com';//document.getElementById('userid').value;
 			var passwrd = 'Rootz46k7du.21jYZG1mzElTfcstcTyZrgoJt';//document.getElementById('passid').value;
 
@@ -16,10 +17,11 @@ jQuery(document).ready(function($) {
 
 			console.log("Logged in with session id " + result.sessionId);
 		} catch (error) {
+			console.log('catch');
 			console.log(error);
 		}
 
-	}
+	//}
 	
 	console.log('fin chargement page');
 });
