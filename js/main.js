@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 		console.log('logincall');
 		try {
 			console.log('try');
-			var usrname = 'djamouha@gmail.com';//document.getElementById('userid').value;
+			var usrname = 'djamouha@gmail.comm';//document.getElementById('userid').value;
 			var passwrd = 'Rootz46k7du.21jYZG1mzElTfcstcTyZrgoJt';//document.getElementById('passid').value;
 
 			if (usrname == null || usrname == '' || passwrd == null || passwrd == '') {
