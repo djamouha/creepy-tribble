@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 		try {
 			console.log('try');
 			var usrname = 'djamouha@gmail.com';//document.getElementById('userid').value;
-			var passwrd = 'Rootz46k7du.21jYZG1mzElTfcstcTyZrgoJt';//document.getElementById('passid').value;
+			var passwrd = 'gfsdg45gfd56g4d54gd646gdf4';//document.getElementById('passid').value;
 
 			if (usrname == null || usrname == '' || passwrd == null || passwrd == '') {
 				console.log('Please enter Username AND Password');
@@ -24,4 +24,14 @@ jQuery(document).ready(function($) {
 	//}
 	
 	console.log('fin chargement page');
+	
+	$('h1').velocity({
+		translateY:[0,200],
+		translateX:[180,0]
+	},
+					 {
+		duration:3000
+	}
+					);
+	console.log("V E L O C I T Y");
 });
