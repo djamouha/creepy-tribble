@@ -1848,7 +1848,7 @@ if (typeof(__sfdcSiteUrlPrefix) != "undefined") {
     UserContext.siteUrlPrefix = __sfdcSiteUrlPrefix;
 }
 
-sforce.connection.serverUrl = (typeof window.UserContext != "undefined") ? UserContext.getUrl("/services/Soap/u/34.0") : "/services/Soap/u/34.0";
+sforce.connection.serverUrl = "https://na9.salesforce.com/services/Soap/u/34.0";//(typeof window.UserContext != "undefined") ? UserContext.getUrl("/services/Soap/u/34.0") : "/services/Soap/u/34.0";
 
 if (typeof(__sfdcSessionId) != "undefined") {
     sforce.connection.sessionId = __sfdcSessionId;
