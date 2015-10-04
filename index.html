@@ -116,14 +116,16 @@
 		
 		<!-- My WebRTC test with SimpleWebRtc -->
 		<script>
-			var webrtc = new SimpleWebRTC({
+			var webrtc = new SimpleWebRTC(/*{
 			  // the id/element dom element that will hold "our" video
 			  localVideoEl: 'localVideo',
 			  // the id/element dom element that will hold remote videos
 			  remoteVideosEl: 'remotesVideos',
 			  // immediately ask for camera access
 			  autoRequestMedia: true
-			});
+			}*/
+			{"offerToReceiveAudio":true,"offerToReceiveVideo":true}
+			);
 			
 			// we have to wait until it's ready
 			webrtc.on('readyToCall', function () {
